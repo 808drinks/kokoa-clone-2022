@@ -1,0 +1,29 @@
+
+.friends {
+    position:absolute;
+    width: 100%;
+    margin-top : 40px;
+    box-sizing: border-box;
+}
+
+.friends__menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.friends__title {
+    display: flex;
+    font-size: 30px;
+}
+
+.friends__btn {
+    padding-left: 20px;
+    color: var(--darksilver);
+}
+
+.friends__btn:hover {
+    color:black;
+    font-size : 105%;
+}

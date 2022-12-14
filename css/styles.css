@@ -1,0 +1,17 @@
+@import "reset.css";
+@import "variables.css";
+
+/* 상태창 */
+@import "screens/status-bar.css";
+
+/* 요소 */
+@import "components/login.css";
+@import "components/nav-bar.css";
+@import "components/friends.css";
+
+input:focus {
+    outline:none;}
+
+body {
+    height: 1000vh;
+}
