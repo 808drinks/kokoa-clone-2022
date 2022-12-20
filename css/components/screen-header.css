@@ -1,29 +1,30 @@
 
-.friends {
+.screen-header {
     position:absolute;
     width: 100%;
     margin-top : 40px;
     box-sizing: border-box;
 }
 
-.friends__menu{
+.screen-header__menu{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 20px;
+    padding: 0px var(--kokoa-margine);
 }
 
-.friends__title {
+.screen-header__title {
     display: flex;
     font-size: 30px;
+    font-weight: 600;
 }
 
-.friends__btn {
+.screen-header__icon {
     padding-left: 20px;
     color: var(--darksilver);
 }
 
-.friends__btn:hover {
+.screen-header__icon:hover {
     color:black;
     font-size : 105%;
 }

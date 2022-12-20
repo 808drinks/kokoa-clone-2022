@@ -1,0 +1,19 @@
+.more001 {
+    position : relative;
+    top : 100px;
+}
+
+.profile__left-text i {
+    padding-left : 3px;
+    color : tomato;
+}
+
+.more002 {
+    position : relative;
+    top : 150px;
+}
+
+.profile__right-text {
+    color : var(--darksilver);
+}
+

@@ -1,0 +1,124 @@
+.find-mid {
+    display: block;
+    width: 100%;
+    position: absolute;
+    top : 215px;
+    padding: 0px var(--kokoa-margine);
+    box-sizing: border-box;
+}
+
+.find-mid-title {
+    display: flex;
+    padding : var(--kokoa-margine) 0px;
+    border-top : 1px solid silver;
+    color : var(--darksilver);
+}
+
+.find-mid-text {
+    padding : 70px 0px 90px 0px;
+    text-align: center;
+    color : var(--darksilver);
+    border-bottom : 1px solid silver;
+}
+
+/* find bottom */
+
+
+.find-bottom-title {
+    display: flex;
+    position: relative;
+    width: 100%;
+    top:355px;
+    padding : var(--kokoa-margine) var(--kokoa-margine);
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    color : var(--darksilver);
+}
+
+.find-bottom-post {
+    position: relative;
+    display: flex;
+    width: 100%;
+    top : 350px;
+    padding : 10px var(--kokoa-margine);
+    justify-content: space-between;
+    box-sizing: border-box;
+    
+}
+
+.find-bottom-post__left {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: left;
+    font-size : 15px;
+    color : var(--darksilver);
+    border-bottom : 1px solid silver;
+}
+
+.find-bottom-post__left span {
+    padding-top : 7px;}
+
+.find-bottom-post__left--post-pink {
+    color : var(--pink);
+}
+
+.find-bottom-post__left--title {
+    font-size: 20px;
+    color : black;
+}
+
+.find-bottom-post__left img {
+    display: flex;
+    position: relative;
+    width: 18px;
+    height: 18px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.ma001 {
+    padding-left : 3px;
+}
+
+.find-bottom-post__left--poster {
+    display: flex;
+    position: relative;
+    align-items: center;
+    
+}
+
+.find-bottom-post__right {
+    display: flex;
+    position : relative;
+    width: 100%;
+    justify-content: right;
+    align-items: center;
+    padding-bottom : 20px;
+    border-bottom : 1px solid silver;
+}
+
+.find-bottom-post__right img {
+    display: flex;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.find-bottom-post__right--text {
+    position: absolute;
+    width: 55px;
+    height: 23px;
+    bottom : 25px;
+    right : 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    color : white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

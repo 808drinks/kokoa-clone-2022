@@ -1,0 +1,54 @@
+
+.setting-block {
+    display: block;
+    position : relative;
+    top:100px;
+}
+
+.setting-one-line {
+    width: 100%;
+    display: flex;
+    padding : var(--kokoa-margine);
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.setting-one-line__text{
+    display: flex;
+    position: relative;
+    padding : 0px var(--kokoa-margine);
+    margin-right : auto;
+    flex-direction: row;
+    align-items: center;
+}
+
+.setting-one-line__icon {
+    display: flex;
+    width: 15px;
+    justify-content: center;
+}
+
+.setting-empty-line {
+    height: 1px;
+    background-color: var(--silver);
+}
+
+.setting-empty-zone {
+    height: var(--kokoa-margine);
+}
+
+.setting-one-line__text--notice {
+    font-size : 10px;
+    color : white;
+    display: flex;
+    width: 13px;
+    height: 13px;
+    background-color: tomato;
+    border-radius: 50%;
+    position: inherit;
+    justify-content: center;
+    align-items: center;
+    margin-left : 3px;
+    text-align: center;
+}

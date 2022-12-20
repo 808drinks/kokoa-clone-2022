@@ -1,0 +1,47 @@
+
+.nav__red-dot {
+    display: flex;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: var(--red);
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+    right:-3px;
+    top:-5px;
+}
+
+.profile__photo--reddot {
+    display: flex;
+}
+
+.profile-red-dot {
+    display: flex;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: var(--red);
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+    color : white;
+    left : 68px;
+    top : -2px;
+
+}
+
+.chat-red-dot {
+    display: flex;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background-color: var(--red);
+    justify-content: center;
+    align-items: center;
+    position: inherit;
+    color : white;
+    right : -9px;
+    top : 2px;
+}
+

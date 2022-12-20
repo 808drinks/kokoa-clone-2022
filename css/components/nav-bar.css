@@ -6,6 +6,7 @@
     padding: 20px 30px;
     border-top: 1px solid rgba(0,0,0,0.2);
     box-sizing: border-box;
+    z-index: 1;
 
 }
 
@@ -45,17 +46,4 @@
     left:17px;
     top:-15px;
     opacity: 1.0;
-}
-
-.nav__red-dot {
-    display: flex;
-    height: 8px;
-    width: 8px;
-    border-radius: 50%;
-    background-color: var(--red);
-    position:absolute;
-    justify-content: center;
-    align-items: center;
-    right:-3px;
-    top:-5px;
 }

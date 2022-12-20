@@ -1,13 +1,21 @@
 @import "reset.css";
 @import "variables.css";
 
-/* 상태창 */
-@import "screens/status-bar.css";
-
-/* 요소 */
+/* components */
 @import "components/login.css";
 @import "components/nav-bar.css";
-@import "components/friends.css";
+@import "components/screen-header.css";
+@import "components/profile.css";
+@import "components/dot.css";
+@import "components/find-top.css";
+
+
+/* screens */
+@import "screens/status-bar.css";
+@import "screens/friends.css";
+@import "screens/find-mid.css";
+@import "screens/more.css";
+@import "screens/setting.css";
 
 input:focus {
     outline:none;}
@@ -15,3 +23,4 @@ input:focus {
 body {
     height: 1000vh;
 }
+
