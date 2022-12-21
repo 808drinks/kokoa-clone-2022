@@ -17,6 +17,8 @@
     display: flex;
     font-size: 30px;
     font-weight: 600;
+    justify-content: center;
+    position: static;
 }
 
 .screen-header__icon {
@@ -27,4 +29,16 @@
 .screen-header__icon:hover {
     color:black;
     font-size : 105%;
+}
+
+.sh001 {
+    width: 20%;
+}
+
+.sh002 {
+    width: 60%;
+}
+
+.sh003 {
+    position: fixed;
 }

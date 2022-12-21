@@ -8,6 +8,7 @@
 @import "components/profile.css";
 @import "components/dot.css";
 @import "components/find-top.css";
+@import "components/chat-block.css";
 
 
 /* screens */
@@ -24,3 +25,7 @@ body {
     height: 1000vh;
 }
 
+.bd001 {
+    height: 200vh;
+    background-color: var(--chat-blue);
+}
