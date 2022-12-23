@@ -52,3 +52,25 @@
 .c-channel {
     top : 100px;
 }
+
+.swing-ani:hover {
+    animation : swing-animation 1s linear infinite;
+}
+
+@keyframes swing-animation {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    25% {
+        transform : rotateZ(30deg);
+     }
+    50% {
+        transform: rotateZ(0deg);
+    }
+    75% {
+        transform: rotateZ(-30deg);
+    }
+    100% {
+        transform: rotateZ(0deg);
+    }
+}   
